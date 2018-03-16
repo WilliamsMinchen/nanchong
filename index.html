@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="styles/menu.css">
     <link rel="stylesheet" href="styles/content.css">
     <style>
-        li {
+        li{
             height: 20px;
         }
     </style>
@@ -22,14 +22,12 @@
                 <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1521152630946&di=7195f04308fd20bc7aff6e6eb6070c1e&imgtype=0&src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F0171ae5683dccf32f8759f04b29bf9.jpg"
                      width="50" height="50">
                 <span class="icon-title">嘉陵公安</span>
-                <div>
-                    <div class="headline">
-                        <span class="headline-lable">智慧安全小区信息管理平台</span>
-                    </div>
-                    <div class="retain"></div>
-                </div>
             </div>
         </div>
+        <div class="headline">
+            <span class="headline-lable">智慧安全小区信息管理平台</span>
+        </div>
+        <div class="retain"></div>
     </div>
     <div class="menu">
         <ul>
@@ -45,110 +43,16 @@
         </ul>
     </div>
     <div class="content">
-        <div style="width:100%">
-            <div class="content-left">
-                <div>
-                    <input type="text" placeholder="搜索姓名、身份证号、电话号码"/>
-                </div>
-                <div>
-                    <div>
-                        <span>小区类型</span>
-                        <span>小区总数：3828个</span>
-                    </div>
-                    <div class="charts-left" id="bars1"></div>
-                    <div class="charts-right" id="main"></div>
-                </div>
-                <div>
-                    <div>
-                        <span>房屋数据</span>
-                        <span>房屋总数：3828套 | 入住率： 85%</span>
-                    </div>
-                    <div class="charts-left" id="bars2"></div>
-                    <div class="charts-right" id="line1"></div>
-                </div>
-                <div>
-                    <div>
-                        <span>小区类型</span>
-                        <span>小区总数：3828个</span>
-                    </div>
-                    <div class="charts-left" id="bars3"></div>
-                    <div class="charts-right" id="line2" style="height:10rem;width: 70%"></div>
-                </div>
-            </div>
-            <div class="content-center">
-                <div class="mapArea" style="border: 1px solid red;height: 20rem;"></div>
-                <div class="table" style="border: 1px solid red;height: 13rem;">
-                    <ul id="ulContent">
-                        <li>我是第1行文字</li>
-                        <li>我是第2行文字</li>
-                        <li>我是第3行文字</li>
-                        <li>我是第4行文字</li>
-                        <li>我是第5行文字</li>
-                        <li>我是第6行文字</li>
-                        <li>我是第7行文字</li>
-                        <li>我是第8行文字</li>
-                        <li>我是第9行文字</li>
-                        <li>我是第10行文字</li>
-                        <li>我是第11行文字</li>
-                        <li>我是第12行文字</li>
-                        <li>我是第13行文字</li>
-                        <li>我是第14行文字</li>
-                        <li>我是第15行文字</li>
-                        <li>我是第16行文字</li>
-                        <li>我是第17行文字</li>
-                        <li>我是第18行文字</li>
-                        <li>我是第19行文字</li>
-                        <li>我是第20行文字</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="content-right">
-                <div>
-                    <input type="text" placeholder="搜索姓名、身份证号、电话号码"/>
-                </div>
-                <div>
-                    <div>
-                        <span>小区类型</span>
-                        <span>小区总数：3828个</span>
-                    </div>
-                    <div class="charts-left" id="bars1"></div>
-                    <div class="charts-right" id="main"></div>
-                </div>
-                <div>
-                    <div>
-                        <span>房屋数据</span>
-                        <span>房屋总数：3828套 | 入住率： 85%</span>
-                    </div>
-                    <div class="charts-left" id="bars2"></div>
-                    <div class="charts-right" id="line1"></div>
-                </div>
-                <div>
-                    <div>
-                        <span>小区类型</span>
-                        <span>小区总数：3828个</span>
-                    </div>
-                    <div class="charts-left" id="bars3"></div>
-                    <div class="charts-right" id="line2" style="height:10rem;width: 70%"></div>
-                </div>
-            </div>
-            >>>>>>> origin/master
-        </div>
-    </div>
+        <div class="content-left">
 
-    <script src="scripts/jquery-1.11.1.min.js"></script>
-    <script src="scripts/echarts.min.js"></script>
-    <script src="scripts/index.js"></script>
-    <script src="scripts/menu.js"></script>
-    <script src="scripts/slider.js"></script>
-    <script>
-      $(function () {
-        //
-        <!--获取li每行的高度，动画移动的高度-->
-        var liHeight = $('li').height();
-        //
-        <!--调用插件-->
-        $('#ulContent').lSlide({nTop: liHeight});
-      })
-    </script>
+        </div>
+        <div class="content-center"></div>
+        <div class="content-right"></div>
+    </div>
+</div>
+<script src="scripts/jquery-1.11.1.min.js"></script>
+<script src="scripts/echarts.min.js"></script>
+<script src="scripts/index.js"></script>
+<script src="scripts/menu.js"></script>
 </body>
 </html>
