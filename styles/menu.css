@@ -6,3 +6,28 @@ des: 菜单样式
     width: 100%;
     border: 1px solid red;
 }
+.menu > ul{
+    padding: .5rem 2.5rem;
+    font-size: 1rem;
+}
+.menu > ul > li {
+    display: inline;
+    cursor: pointer;
+}
+.menu > ul > li:hover {
+    color: #2dc7ef;
+    padding-bottom: .5rem;
+    border-bottom: 2px solid transparent;
+    border-image: -webkit-linear-gradient(90deg, red, #2dc7ef) 50% 2;
+    /*border-image:-moz-linear-gradient(left,#ace,#f96);!*Mozilla*!*/
+
+    /*border-image:-webkit-gradient(linear,0 50%,100% 50%,from(#ace),to(#f96));!*Old gradient for webkit*!*/
+
+    /*border-image:-webkit-linear-gradient(left,#ace,#f96);!*new gradient for Webkit*!*/
+
+    /*border-image:-o-linear-gradient(left,#ace,#f96); !*Opera11*!*/
+}
+.menu > ul > li:not(:first-child){
+    margin-left: 1.5rem;
+
+}
