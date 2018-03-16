@@ -4,7 +4,6 @@ des: 头部菜单栏上面的样式文件
 .header {
     height: 3.5rem;
     width: 100%;
-    border: 1px solid blue;
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
